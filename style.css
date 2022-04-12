@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+.carGame{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.hide{
+    display: none;
+}
+.enemy{
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    background-image: url('images/enemy.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px;
+    background-color: rgb(11, 95, 95);
+}
+.car{
+    width: 50px;
+    height: 80px;
+    background: red;
+    position: absolute;
+    bottom: 120px;
+    background-image: url('images/mycar.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 13px;
+}
+.lines{
+    width: 10px;
+    height: 100px;
+    background: white;
+    position: relative;
+    margin: auto;
+}
+.gameArea{
+    width: 400px;
+    height: 100vh;
+    background: #2d3436;
+    margin: auto;
+    position: relative;
+    border-left: 5px solid rgb(38, 17, 156);
+    border-right: 5px solid rgb(38, 17, 156);
+    overflow: hidden;
+}
+
+.score{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background: #10ac84;
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 0 5px 5px #777;
+    color: white;
+    border-radius: 10px;
+}
+.startScreen{
+    background: #ee5253;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: 1;
+    text-align: center;
+    border:1px solid #ff6b6b;
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    cursor: pointer;
+    letter-spacing: 5;
+    font-size: 20px;
+    word-spacing: 3;
+    line-height: 30px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px #777;
+    border-radius: 20px;
+}
+.ctr{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    background: #10ac84;
+    width: 200px;
+    height: 200px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 0 5px 5px #777;
+    color: white;
+    border-radius: 10px;
+    
+}
+#btn1{
+    position: absolute;
+    top: 67px;
+    right: 74px;
+    height: 50px;
+    width: 50px;
+    background-image: url('images/arrow-up.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+#btn2{
+    position: absolute;
+    top: 134px;
+    right: 74px;
+    height: 50px;
+    width: 50px;
+    background-image: url('images/arrow-down.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+   
+
+}
+#head{
+    margin: 0;
+}
+/*.paj{
+    position: absolute;
+    bottom:60px;
+    right: 40px;
+    width: 200px;
+    height: 200px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 10px;
+    
+}*/
